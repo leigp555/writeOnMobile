@@ -1,7 +1,7 @@
 yarn build --base=https://leigp555.github.io/mobile-write &&
 cd dist &&
 git add . &&
-git commit '部署' &&
+git commit -m '部署' &&
 git push
 
 
